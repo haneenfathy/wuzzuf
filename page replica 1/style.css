@@ -1,82 +1,61 @@
 body{
 	background-color: #EEEEEE;
 }
-.weather1>p:first-child{
+
+.weather-card h2{
 	line-height: 0.1pt;
 	color: #C0C0C0;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 400%;
+	font-size: 50px;
 	text-align: left;
-	transform: translate(-60px, 50px);
+	transform: translate(-60px, 10px);
   
 }
-.weather1>p{
+
+.weather-card h3{
 	line-height: 0.1pt;
 	color: #EEEEEE;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 200%;
+	font-size: 25px;
 	text-align: left;
-	transform: translate(-60px, 25px);
+	transform: translate(-60px, 10px);
   
 }
-.weather2>p:first-child{
-	line-height: 0.1pt;
-	color: #C0C0C0;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 400%;
-	text-align: left;
-	transform: translate(-60px, 50px);
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.weather-card {
+	height: 100px;
+	width: 100px;
+	transition: box-shadow .3s;
+	background-color: #FFFFFF;
+	padding: 100px;
+	border-radius: 5px;
+}
+
+.weather-card:hover {
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.weather1{
+	margin-right: 40px;
   
 }
-.weather2>p{
-	line-height: 0.1pt;
-	color: #EEEEEE;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 200%;
-	text-align: left;
-	transform: translate(-60px, 25px);
-  
-}
-.weather1 {
-  transition: box-shadow .3s;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: 25%;
-  top: 30%;
-  background-color: #FFFFFF;
-  padding: 100px;
-  border-radius: 5px;
-}
-.weather1:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
+
 .weather2 {
-  transition: box-shadow .3s;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: 55%;
-  top: 30%;
-  background-color: #FFFFFF;
-  padding: 100px;
-  border-radius: 5px;
-  
+	margin-left: 40px;
 }
-.weather2:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
-.image1{
-	position: absolute;
-	left: 38%;
-  	top: 33%;
-  	z-index: 2;
-}
-.image2{
-	position: absolute;
-	left: 68%;
-  	top: 33%;
-  	z-index: 2;
+
+.weather-card img{
+  	z-index: 1;
+  	width: 70px;
+  	height: 70px;
+  	transform: translate(110px, -80px);
 }
 
 
