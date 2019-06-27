@@ -1,0 +1,46 @@
+
+.contact_content {
+	height: 100%;
+	width: 100%;
+    background-color: #f9fafc;
+    .form {
+        width: 100%;
+    }
+	input {
+        background: transparent;
+    	border: #e6e6e6 solid 1px;
+		font-family: "Open Sans";	
+        font-size: 18px;
+		width: 90%
+    }
+    .input_wrapper_1 {
+        position: relative;
+        display: inline-block;
+        margin:10px;	
+        width: 30%;
+    }
+    .input_wrapper_2 {
+        position: relative;
+        display: inline-block;
+        width: 75%;
+        height: 300px;
+    }
+    .name , .email {
+        padding-left: 10%;
+        height: 35px;
+    }
+	.message {
+        height: 300px;
+    }
+    .user , .mail{
+        position: absolute;
+        left: 3%;
+        top: 30%;
+    }
+    .bubble {
+        position: absolute;
+        left: 6%;
+        top: 5%;
+    }
+}
+

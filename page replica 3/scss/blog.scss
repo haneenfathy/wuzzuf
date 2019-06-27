@@ -1,0 +1,31 @@
+
+.blog_content {
+    background-color: white;
+    .box {
+		position: relative;
+		width: 269px ;
+		margin: 7px;
+		border: #e6e6e6 solid 1px;
+        .date {
+            top:3%;
+            left: 3%;
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            color: white;
+            background-color: #050a0c;
+            font-size: 12px;
+            span {
+                display: block;
+            }
+            span.number{
+                margin-top: 10px;
+            }
+        }
+    }
+    .read {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}

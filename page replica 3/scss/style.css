@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.contact_content {
+  height: 100%;
+  width: 100%;
+  background-color: #f9fafc; }
+  .contact_content .form {
+    width: 100%; }
+  .contact_content input {
+    background: transparent;
+    border: #e6e6e6 solid 1px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    width: 90%; }
+  .contact_content .input_wrapper_1 {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    width: 30%; }
+  .contact_content .input_wrapper_2 {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    height: 300px; }
+  .contact_content .name, .contact_content .email {
+    padding-left: 10%;
+    height: 35px; }
+  .contact_content .message {
+    height: 300px; }
+  .contact_content .user, .contact_content .mail {
+    position: absolute;
+    left: 3%;
+    top: 30%; }
+  .contact_content .bubble {
+    position: absolute;
+    left: 6%;
+    top: 5%; }
+
+.blog_content {
+  background-color: white; }
+  .blog_content .box {
+    position: relative;
+    width: 269px;
+    margin: 7px;
+    border: #e6e6e6 solid 1px; }
+    .blog_content .box .date {
+      top: 3%;
+      left: 3%;
+      position: absolute;
+      width: 55px;
+      height: 55px;
+      color: white;
+      background-color: #050a0c;
+      font-size: 12px; }
+      .blog_content .box .date span {
+        display: block; }
+      .blog_content .box .date span.number {
+        margin-top: 10px; }
+  .blog_content .read {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+  body .title {
+    color: #000000; }
+  body p {
+    color: #7d7d7d;
+    font-size: 15px; }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.button {
+  background-color: #3498db;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 13px 100px;
+  text-decoration: none;
+  margin: 20px; }
+  .button:hover {
+    background-color: #91c2e3; }
+  .button:active {
+    position: relative;
+    top: 1px; }
+
+@media only screen and (max-width: 500px) {
+  .fourth, .third, .second {
+    display: none; }
+
+  .contact_content .input_wrapper_1 {
+    width: 60%; } }
+@media only screen and (max-width: 900px) {
+  .third, .fourth {
+    display: none; }
+
+  .contact_content .input_wrapper_1 {
+    width: 60%; } }
+@media only screen and (max-width: 1100px) {
+  .fourth {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
